@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(peakpx.jpg);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .navbar .navlist .navitem a{
+    color: black;
+    text-decoration: none;
+    display: inline;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.container .navbar .navlist .navitem a:hover{
+    color: red;
+    transform: scale(1.10);
+    font-size: 22px;
+}
+.container .navbar .navlist .navitem{
+    display: inline-block;
+    padding: 0px 30px;
+    align-items: center;
+}
+.container .logo{
+    padding: 20px;
+    color: orangered;
+}
+.container .pesquisa{
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+    margin-right: 15px;
+    align-items: center;
+    height: 100%;
+}
+.container .pesquisa .barra{
+    background-color: transparent;
+    border-color: orangered;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    font-weight:600;
+    font-family: sans-serif;
+    padding: 11px;
+}
+ .container .pesquisa i{
+    background-color: orangered;
+    width: 40px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight:bold;
+    text-align: center;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.container .pesquisa i:hover{
+    box-shadow: 0 0 8px white;
+}
+
+/*MEIO DO SITE*/
+
+section{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    height: calc(100vh - 90px);
+}
+section .containerP{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 450px;
+    width: 80%;
+    border: 2px solid orangered;
+    border-radius: 10px;
+}
+section .containerP .containerO{
+    height: 100%;
+    width: 100%;
+    padding: 80px 40px;
+} 
+section .containerP .containerO .titulo1{
+    color: white;
+    text-align: left;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 0px 0px 10px 0px;
+
+}
+.titulo1 span {
+    color: orange;
+}
+section .containerP .containerO .texto1{
+    text-align: left    ;
+    padding: 5px 0px  0px 0px;
+    color: white;
+}
+section .containerP .containerO .btn{
+    height: 50px;
+    width: 45%;
+    padding: 15px 20px;
+    margin-top: 20px;
+    background-color: orange;
+    border-radius: 8px;
+    align-self: flex-start;
+    border: none;
+    color: white;
+}
+section .containerP{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section .containerO .containerL{
+    height: 150%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section .containerP .containerO{
+    background-color: rgba(0, 0, 0, 0.404);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*LOGIN PARTE*/
+section .containerP .containerO .login{
+    border: 2px solid orangered;
+    border-radius: 10px ;
+    backdrop-filter: blur(10px);
+    height: 130%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+section .containerP .containerO .login .titulo2{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: -1px;
+    text-align: center;
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+section .containerP .containerO .login .barra2{
+    flex-direction: column;
+    padding: 15px;
+}
+section .containerP .containerO .login .barra2 input{
+    width: 100%;
+    padding: 5px;
+    background-color: transparent;
+    border-color: white;
+    border: 2px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+section .containerP .containerO .login .barra2 input::placeholder{
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+section .containerP .containerO .login .barra2 i{
+    color: white;
+    font-size: 15px;
+    margin: -25px;
+}
+
+section .containerP .containerO .login .barra3{
+    flex-direction: column;
+    padding: 15px;
+}
+section .containerP .containerO .login .barra3 input{
+    width: 100%;
+    padding: 5px;
+    background-color: transparent;
+    border-color: white;
+    border: 2px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+section .containerP .containerO .login .barra3 input::placeholder{
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+section .containerP .containerO .login .barra3 i{
+    color: white;
+    font-size: 15px;
+    margin: -25px;
+}
+
+section .containerP .containerO .login .btn2{
+    background-color: orange;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    color: white;
+    font: 600;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+section .containerP .containerO .login .texto2{
+text-align: center;
+margin-left: 10px;
+color: white;
+font-size: 22px;
+}
+section .containerP .containerO .login .texto2 span{
+    color: orangered;
+    text-decoration:underline;
+}
+section .containerP .containerO .login .loginS{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: white;
+    font-family: sans-serif;
+}
+section .containerP .containerO .login .icons{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-size: 22px;
+    color: white;
+}
